@@ -46,6 +46,7 @@ public class JavaApplication5 {
             mes = sca.nextInt();
             System.out.println("Dime el año");
             anyo = sca.nextInt();
+            System.out.println("PARA VER LOS CAMBIOS EN GITHUB");
 
 //creamos las excepciones en caso que la fecha de error
             if (dia <= 0 | dia > 31) {
@@ -94,6 +95,7 @@ if(mes<=mesActual){
                escribir=new FileWriter(archivo, true);
                linea =new PrintWriter(escribir);
                linea.println("Tienes " + anyResultado +"años" +"con " + mes +"meses"+"y " + diaResultado   +"dias");
+                linea.println("VALORES DE UNA NUEVA COMPILACION PARA GIT HUB" );
                linea.close();
                 }
                 catch(IOException ex){
@@ -108,6 +110,7 @@ if(mes<=mesActual){
                escribir=new FileWriter(archivo, true);
                linea =new PrintWriter(escribir);
                linea.println("Tienes " + anyResultado +"años" +"con " + mes +"meses"+"y " + diaResultado   +"dias");
+               linea.println("Se muestra los valores de una nueva compilacion " );
                linea.close();
                     
                
